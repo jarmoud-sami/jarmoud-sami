@@ -1,20 +1,21 @@
 {
-    "name": "pradeep/hello-world",
+    "name": "sami/hello-world",
     "description": "My first composer project",
-    "type": "composer-plugin",
+    "type": "library",
     "require": {
         "php": ">=5.3.0"
     },
     "authors": [
         {
-            "name": "Pradeep Kumar",
-            "email": "pradeepp@fanisko.com"
+            "name": "Sami",
+            "email": "sami@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-0": {
-            "HelloWorld": "src/"
+        "psr-4": {
+            "HelloWorld": "src/",
+            "HelloWorld\\Tests": "tests/"
         }
     }
 }
