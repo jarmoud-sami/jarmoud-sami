@@ -11,6 +11,7 @@
             "email": "sami@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "HelloWorld": "src/",
